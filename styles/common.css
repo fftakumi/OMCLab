@@ -1,0 +1,43 @@
+h1 {
+    color: #004643;
+    margin: 20px;
+}
+
+h2 {
+    color: #004643;
+}
+
+p {
+    font-size: 100%;
+    line-height: 2;
+    margin-top: 10px;
+}
+
+.color-primary {
+    background-color: white;
+}
+
+.color-secondary {
+    background-color: white;
+}
+
+.color-secondary h2 {
+    color: #fffffe;
+}
+
+.color-secondary p {
+    color: #abd1c6;
+}
+
+.background-fixed {
+    z-index: 1;
+}
+
+.front-fixed {
+    z-index: 2;
+}
+
+.border-line {
+    background-color: #FFFFFF;
+    height: 3px;
+}

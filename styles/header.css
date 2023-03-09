@@ -1,0 +1,108 @@
+.index-header {
+    position: relative;
+    height: 100vh;
+}
+
+.main-image {
+    height: 100vh;
+    position: fixed;
+}
+
+.lab-name {
+    color:white;
+    font-size: 36px;
+    margin: 10px;
+}
+
+.nav-wrap {
+    position: absolute;
+    bottom: 0;
+}
+
+.fixed-nav-wrap {
+    background-color: white;
+    position: fixed;
+    z-index: 3;
+    transition: background-color;
+    transition-duration: 1s;
+}
+
+.fixed-nav-wrap .lab-name {
+    color: #004643;
+    transition: color;
+    transition-duration: 1s;
+}
+
+.nav-bar {
+    background-color: white;
+    width: 100vw;
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    width: 15vw;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+
+.nav-bar ul li:hover {
+    background-color: #abd1c6;
+}
+
+.nav-bar ul li a {
+    font-size: 1.5vw;
+    max-font-size: 2px;
+    font-weight: bold;
+    color: #004643;
+}
+
+.banner-header {
+    position: relative;
+    height: 15vh;
+    z-index: 2;
+}
+
+.banner-image {
+    width: 100vw;
+    height: 9vh;
+}
+
+.nav-btn {
+    background-color: white;
+    width: 100vw;
+    border-bottom: 1px solid #e1f1eb;
+}
+
+.fixed-nav-btn {
+    position: fixed;
+    top: 0;
+}
+
+.nav-btn ul {
+    display: flex;
+    list-style: none;
+    padding: 0px 0em 0px 1em;
+    margin: 0;
+}
+
+.nav-btn ul li{
+    padding: 1em 2em 1em 2em;
+}
+
+.nav-btn ul li:hover {
+    opacity: 0.5;
+}
+
+.nav-btn ul li a{
+    font-size: 1.5vw;
+    max-font-size: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #004643;
+}
