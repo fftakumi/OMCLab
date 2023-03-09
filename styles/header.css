@@ -64,7 +64,7 @@
 
 .banner-header {
     position: relative;
-    height: 15vh;
+    height: 12vh;
     z-index: 2;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .nav-btn ul li{
-    padding: 1em 2em 1em 2em;
+
 }
 
 .nav-btn ul li:hover {
@@ -100,7 +100,8 @@
 }
 
 .nav-btn ul li a{
-    font-size: 1.5vw;
+    padding: 1em 2em 1em 2em;
+    font-size: 90%;
     max-font-size: 2px;
     font-weight: bold;
     text-decoration: none;
