@@ -1,5 +1,5 @@
 h1 {
-    color: #004643;
+    color: #ffffff;
     margin: 20px;
 }
 
@@ -11,6 +11,10 @@ p {
     font-size: 100%;
     line-height: 2;
     margin-top: 10px;
+}
+
+hr {
+    border: 2px solid #e1f1eb;
 }
 
 .color-primary {

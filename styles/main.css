@@ -4,7 +4,7 @@ h2 {
 }
 
 .wrap {
-    width: 100vw;
+    width: 100%;
     position: relative;
     padding-top: 50px;
 }

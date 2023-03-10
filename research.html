@@ -22,9 +22,11 @@
 </head>
 <body>
 <header id="banner" class="banner-header">
-    <img class="banner-image" src="images/banner.jpeg">
+    <div class="banner-wrap">
+        <img class="banner-image" src="images/banner.jpeg">
+        <h1 class="banner-text"><a>Organic Materials Chemistry Laboratory</a></h1>
+    </div>
     <div id="nav" class="nav-wrap">
-        <h1 class="lab-name"><a>Organic Materials Chemistry Laboratory</a></h1>
         <div id="btn" class="nav-btn">
             <ul>
                 <li><a href="index.html">HOME</a></li>
@@ -36,9 +38,10 @@
     </div>
 </header>
 <main>
-    <div class="wrap color-primary">
+    <div id="main-wrap" class="wrap color-primary">
         <div class="contents">
             <h2>Research</h2>
+            <hr>
             <div class="card">
                 <h2>再生可能資源を活用した機能性材料の開発</h2>
                 <p>
@@ -92,5 +95,6 @@
         </div>
     </div>
 </main>
+<script src="js/banner-cont.js"></script>
 </body>
 </html>
