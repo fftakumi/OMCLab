@@ -45,3 +45,7 @@ hr {
     background-color: #FFFFFF;
     height: 3px;
 }
+
+.en {
+    display: none;
+}
