@@ -1,78 +1,42 @@
-.index-header {
+header {
     position: relative;
-    height: 100vh;
     width: 100%;
-}
-
-.main-image {
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    object-fit: cover;
-    aspect-ratio: initial;
-}
-
-.nav-wrap {
-    position: absolute;
-    bottom: 0;
-    color: white;
-    transition: color;
-    transition-duration: 1s;
-    height: auto;
-    width: 100%;
-}
-
-.fixed-nav-wrap {
-    background-color: white;
-    position: fixed;
-    z-index: 3;
-    transition: background-color;
-    transition-duration: 1s;
-    width: 100%;
-}
-
-.fixed-nav-wrap .lab-name {
-    color: #004643;
-    transition: color;
-    transition-duration: 1s;
-}
-
-.banner-header {
-    position: relative;
-    height: 15vh;
-    z-index: 2;
 }
 
 .banner-wrap {
     position: relative;
-    height: 9vh;
 }
 
-.banner-image {
-    height: 100%;
+.main-image {
+    position: relative;
+    height: 100vh;
     width: 100%;
-    object-fit: cover;
     aspect-ratio: initial;
-    display: flex;
+    object-fit: cover;
+    z-index: 1;
 }
 
-.banner-text {
+.header-image {
+    position: relative;
+    height: 10vh;
+    width: 100%;
+    aspect-ratio: initial;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.header-text {
     position: absolute;
-    bottom: 2px;
+    bottom: 0px;
     z-index: 2;
     color: white;
-    margin: 0 0 0 1em;
+    margin-left: 1em;
 }
 
 .nav-btn {
     background-color: white;
     width: 100%;
     border-bottom: 1px solid #e1f1eb;
-}
-
-.fixed-nav-btn {
-    position: fixed;
-    top: 0;
 }
 
 .nav-btn ul {
@@ -99,9 +63,54 @@
     color: #004643;
 }
 
-@media screen and (max-width: 959px) {
-
+.fixed-nav-btn {
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
+
+.hamburger-btn {
+    display: none;
+}
+
+
 @media screen and (max-width: 480px) {
-    .
+    .hamburger-btn {
+        color: #004643;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .hamburger-btn-open {
+        vertical-align: middle;
+        font-size: 1em;
+    }
+
+    .hamburger-btn-close {
+        vertical-align: middle;
+        font-size: 1em;
+    }
+
+    .header-text {
+        font-size: 18px;
+    }
+
+    .hamburger-btn {
+        display: block;
+    }
+
+    .hamburger-open {
+        display: flex;
+    }
+
+    .hamburger-close {
+        display: none;
+    }
+
+    .nav-btn ul {
+        flex-flow: column;
+    }
+
 }

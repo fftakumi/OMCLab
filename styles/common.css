@@ -46,6 +46,10 @@ hr {
     height: 3px;
 }
 
+.none-display {
+    display: none;
+}
+
 .en {
     display: none;
 }

@@ -18,8 +18,7 @@ h2 {
     padding: 0px 30px 30px 30px;
     border-radius: 20px;
     margin-top: 40px;
-    border: solid;
-    border-color: #001e1d;
+    border: solid #004643;
     text-align: justify;
 }
 
@@ -30,13 +29,16 @@ h2 {
 @media screen and (max-width: 959px) {
     .contents {
         margin: 0 auto 0 auto;
-        width: 600px;
+        width: 85%;
+        max-width: 600px;
+        font-size: 80%;
     }
 }
+
 @media screen and (max-width: 480px) {
     .contents {
         margin: 0 auto 0 auto;
-        width: 80%;
-        font-size: 14px;
+        width: 90%;
+        font-size: 80%;
     }
 }
